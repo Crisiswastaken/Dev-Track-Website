@@ -1,0 +1,25 @@
+.glow {
+    text-shadow: 0 0 10px rgb(255, 255, 255); /* White glow with subtle opacity */ 
+    
+}
+
+
+
+.active-glow {
+    text-shadow: 0 0 10px rgb(162, 0, 255); 
+}
+
+
+.typewriter {
+    border-right: 2px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Hides the overflow */
+    display: inline-block; /* Allows the width to shrink */
+    animation: blink 0.5s step-end infinite; /* Cursor blinking */
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

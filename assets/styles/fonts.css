@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Akira'; /* Example font name */
+    src: url('../fonts/Akira.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'against-regular';
+    src: url('../fonts/against-regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'techno';
+    src: url('../fonts/Techno.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'technova';
+    src: url('../fonts/Technova.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dogica';
+    src: url('../fonts/dogica.ttf') format('truetype');
+}
+
+
+
+
+.akira {
+    font-family: 'Akira', sans-serif; /* Fallback to sans-serif in case font doesn't load */
+}
+
+.against {
+    font-family: 'against-regular', sans-serif; /* Fallback to sans-serif in case font doesn't load */
+}
+
+.techno {
+    font-family: 'techno', sans-serif; /* Fallback to sans-serif in case font doesn't load */
+}
+
+.technova {
+    font-family: 'technova', sans-serif; /* Fallback to sans-serif in case font doesn't load */
+}
+
+.dogica {
+    font-family: 'dogica', sans-serif; /* Fallback to sans-serif in case font doesn't load */
+}

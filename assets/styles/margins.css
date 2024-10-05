@@ -1,0 +1,29 @@
+.main-header {
+    margin: 20px; /* Default margin */
+}
+@media (min-width: 769px) {
+    .main-header {
+        margin: 10rem 0 0 0; /* Larger margin for PC */
+    }
+}
+@media (max-width: 768px) {
+    .main-header {
+        font-size: auto;
+        margin: 5rem 0 0 1rem; /* Smaller margin for mobile */
+    }
+}
+
+.button1-margin {
+    margin: 20px; /* Default margin */
+}
+@media (min-width: 769px) {
+    .button1-margin {
+        margin: 3rem 0 0 0; /* Larger margin for PC */
+    }
+}
+@media (max-width: 768px) {
+    .button1-margin {
+        font-size: auto;
+        margin: 2rem 0 0 1rem; /* Smaller margin for mobile */
+    }
+}
