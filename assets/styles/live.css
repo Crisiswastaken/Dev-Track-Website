@@ -1,9 +1,9 @@
 .typewriter {
-    border-right: 2px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
-    white-space: nowrap; /* Prevents text wrapping */
-    overflow: hidden; /* Hides the overflow */
-    display: inline-block; /* Allows the width to shrink */
-    animation: blink 0.5s step-end infinite; /* Cursor blinking */
+    border-right: 2px solid rgba(255, 255, 255, 0.75); 
+    white-space: nowrap; 
+    overflow: hidden; 
+    display: inline-block; 
+    animation: blink 0.5s step-end infinite; 
 }
 
 @keyframes blink {
